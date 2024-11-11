@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط التواصل الاجتماعي</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0c5196, #f0b349);
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .logo {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .logo img {
+            width: 400px; /* حجم الشعار */
+        }
+        .icon-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 90%;
+            padding: 10px;
+        }
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+            background-color: #cc840c;
+        }
+        .icon img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- الشعار -->
+    <div class="logo">
+        <img src="icons/logo.png" alt="Logo">
+    </div>
+
+    <!-- الأيقونات بشكل أفقي -->
+    <div class="icon-container">
+        <a href="http://www.ydnorg.org/" target="_blank" class="icon">
+            <img src="icons/website.png" alt="Website">
+            <span>Website</span>
+        </a>
+        <a href="https://www.facebook.com/ydnorg?mibextid=ZbWKwL" target="_blank" class="icon">
+            <img src="icons/facebook.png" alt="Facebook">
+            <span>Facebook</span>
+        </a>
+<!--
+        <a href="https://instagram.com/yourprofile" target="_blank" class="icon">
+            <img src="icons/instagram.png" alt="Instagram">
+            <span>Instagram</span>
+        </a>
+
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="icon">
+            <img src="icons/linkedin.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </a>
+-->
+        <a href="http://www.twitter.com/ydnorg_ye" target="_blank" class="icon">
+            <img src="icons/twitter.png" alt="Twitter">
+            <span>Twitter</span>
+        </a>
+        <a href="https://whatsapp.com/channel/0029Vaqa2gdC1FuFwjrJ0H3a" target="_blank" class="icon">
+            <img src="icons/whatsapp.png" alt="WhatsApp">
+            <span>WhatsApp</span>
+        </a>
+<!--
+        <a href="https://t.me/yourusername" target="_blank" class="icon">
+            <img src="icons/telegram.png" alt="Telegram">
+            <span>Telegram</span>
+        </a>
+
+        <a href="https://www.youtube.com/" target="_blank" class="icon">
+            <img src="icons/youtube.png" alt="YouTube">
+            <span>YouTube</span>
+        </a>
+-->      
+        <a href="info@ydnorg.org" target="_blank" class="icon">
+            <img src="icons/email.png" alt="Email">
+            <span>email</span>
+        </a>
+<!--
+  <a href="tel:+1234567890" class="icon">
+            <img src="icons/call.png" alt="Call Us">
+            <span>Call Us</span>
+        </a>
+-->
+    </div>
+</body>
+</html>
